@@ -6,7 +6,7 @@ I did it following a Udemy course.
 
 ## Take a Look
 
-![Project](https://im6.ezgif.com/tmp/ezgif-6-ff85f049e836.gif)
+![Project](https://i.imgur.com/MhPiRZN.gif)
 
 ## Built With
 
