@@ -27,12 +27,12 @@
               placeholder="Address">
           </mt-input-container>
         </div>
-        <div class="col-sm-2 col-xs-6">
-          <mt-input-container errorMessage="Number Mandatory!">
-            <input class="form-control" name="number" ngModel required autocomplete="off" placeholder="Number">
+        <div class="col-sm-3 col-xs-6">
+          <mt-input-container errorMessage="Number Mandatory! (Only Numbers)"> <!--Pattern is the regular expression-->
+            <input class="form-control" name="number" pattern="^[0-9]*$" ngModel required autocomplete="off" placeholder="Number">
           </mt-input-container>
         </div>
-        <div class="col-sm-4 col-xs-6">
+        <div class="col-sm-3 col-xs-6">
           <mt-input-container>
             <input class="form-control" name="optional" ngModel autocomplete="off" placeholder="Optional">
           </mt-input-container>
